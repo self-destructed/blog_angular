@@ -1,6 +1,11 @@
-# BlogAngular
+# Blog Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+
+## Project info
+Another one pet project blog.
+Nothing to see here xD
+Wanna improve my angular skills
 
 ## Development server
 
