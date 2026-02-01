@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'tailwindcss';
+
+@theme {
+  --color-persian-green: hsla(177, 100%, 33%, 1);
+  --color-aqua-squeeze: hsla(177, 39%, 91%, 1);
+  --color-black-squeeze: hsla(170, 30%, 96%, 1);
+  // --color-black-squeeze: red;
+  --color-shark: hsla(0, 0%, 13%, 1);
+  --color-storm-dust: hsla(0, 0%, 40%, 1);
+}

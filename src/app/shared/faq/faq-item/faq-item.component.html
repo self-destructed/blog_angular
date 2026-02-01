@@ -1,0 +1,28 @@
+<div class="bg-black-squeeze faq-item">
+  <h3
+    class="py-2 ps-2 pe-6"
+    [class.bg-aqua-squeeze]="expanded()"
+  >
+    <button
+      type="button"
+      class="w-full py-2 ps-2 pe-2 flex justify-between content-start gap-x-4 font-noto-sans font-medium text-base leading-6 tracking-normal capitalize text-shark"
+      (click)="toggle()"
+    >
+      <span class="text-shark text-left faq-item-title">
+        {{ faqItem().question }}
+      </span>
+      <span class="text-persian-green faq-item-icon">{{
+        expanded() ? '&minus;' : '&plus;'
+      }}</span>
+    </button>
+  </h3>
+  @if (this.expanded()) {
+    <div class="faq-item-panel">
+      <p
+        class="text-storm-dust py-4 px-5 font-noto-sans font-normal text-sm leading-relaxed tracking-normal"
+      >
+        {{ faqItem().answer }}1
+      </p>
+    </div>
+  }
+</div>
