@@ -69,7 +69,7 @@ src/
 
 ## Деплой проекта
 
-`npm run deploy` - <https://self-destructed.github.io/blog_angular/>
+`npm run deploy` - деплой находится по адресу <https://self-destructed.github.io/blog_angular/>
 
 ## Роутинг
 
